@@ -43,8 +43,8 @@ Below gif will show you how to work with front-end website
 
 - Google Login
 
-[<img src="images/google-login.gif">](https://github.com/percyku/learning-server-springboot-oauth2/blob/master/images/google-login.gif)
+[<img src="images/google-login-l.gif">](https://github.com/percyku/learning-server-springboot-oauth2/blob/master/images/google-login-l.gif)
 
 - GitHub Login
 
-[<img src="images/github-login.gif">](https://github.com/percyku/learning-server-springboot-oauth2/blob/master/images/github-login.gif)
+[<img src="images/github-login-l.gif">](https://github.com/percyku/learning-server-springboot-oauth2/blob/master/images/github-login-l.gif)
