@@ -35,7 +35,7 @@ Please follow this [detail](https://github.com/percyku/learning-server-springboo
 
 # OAuth2
 
-Please get authorizing from Google and GitHub
+Please get authorizing from [Google](https://console.cloud.google.com/welcome) and [GitHub](https://github.com/settings/developers),
 then add client-id & client-secret in Google/GitHub Social login(folder:/main/resources/application.properties)
 
 This function must use front-end website to operate,but my front-end website is not complete yet.
