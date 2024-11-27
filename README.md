@@ -28,7 +28,7 @@ This program is for RESTful API practice
 # RESTful API
 
 You can use postman to test those APIs.
-
+(notes: import this file to postman [restful-api-file](https://github.com/percyku/learning-server-springboot-oauth2/blob/master/learning-restful-api.postman_collection.json))
 Please follow this [detail](https://github.com/percyku/learning-server-springboot/blob/master/restful-api-operation.md) to operate
 
 
