@@ -21,14 +21,16 @@ This program is for RESTful API practice
 - Member Registration -> Role:Instrutor,Student
 - Member Login/Logout
 - Member By OAuth2.0 Login with Google & GitHub
+- Member Update Profile
 - Instructor Create class
-- Student Register class
 - Student Search class
+- Student Enroll class
 
 # RESTful API
 
 You can use postman to test those APIs.
 (notes: import this file to postman [restful-api-file](https://github.com/percyku/learning-server-springboot-oauth2/blob/master/learning-restful-api.postman_collection.json))
+
 Please follow this [detail](https://github.com/percyku/learning-server-springboot/blob/master/restful-api-operation.md) to operate
 
 
@@ -48,3 +50,11 @@ Below gif will show you how to work with front-end website
 - GitHub Login
 
 [<img src="images/github-login-l.gif">](https://github.com/percyku/learning-server-springboot-oauth2/blob/master/images/github-login-l.gif)
+
+
+
+# Ref
+
+[[NEW] Spring Boot 3, Spring 6 & Hibernate for Beginners](https://www.udemy.com/course/spring-hibernate-tutorial/?couponCode=BFCPSALE24)
+
+[資安一把罩！Spring Security 零基礎入門](https://hahow.in/courses/64d4acbf018e4b0acfaac3a3)

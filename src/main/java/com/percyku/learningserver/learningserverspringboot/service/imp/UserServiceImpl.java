@@ -91,7 +91,7 @@ public class UserServiceImpl implements UserService {
 
         if(!userEmail.equals(updateMember.getEmail())){
             if(userDao.getUserByEmail(updateMember.getEmail())!=null){
-                System.out.println("Exist update mail:"+updateMember.getEmail());
+                log.debug("Exist update mail:"+updateMember.getEmail());
                 return (long)-1;
             }else{
                 user.setEmail(updateMember.getEmail());
@@ -110,7 +110,7 @@ public class UserServiceImpl implements UserService {
         if(updateMember.getRoles()!= null){
             for(String roleName : updateMember.getRoles()) {
                 Role tmpRole = new Role();
-                System.out.println("roleName:"+roleName);
+                log.debug("roleName:"+roleName);
                 long roleId = 0;
                 if ("ROLE_STUDENT".equals(roleName)) {
                     roleId = 1;
@@ -127,14 +127,14 @@ public class UserServiceImpl implements UserService {
         }
 
         if(!user.isEnabled()){
-            System.out.println("!user.isEnabled()");
+            log.debug("!user.isEnabled()");
             user.setEnabled(true);
             user.setRoles(theRole);
             return userDao.update(user);
 
         }
         else{
-            System.out.println("user.isEnabled()");
+            log.debug("user.isEnabled()");
         }
 
 
